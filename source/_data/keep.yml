@@ -1,0 +1,10 @@
+base_info:
+  primary_color: "#e18cbf"
+  title: Chiehhhaa's Blog
+  author: chiehhhaa
+  # avatar: /images/avatar.svg
+  # logo: /images/logo.svg
+  # favicon: /images/logo.svg
+
+menu:
+  about: /about

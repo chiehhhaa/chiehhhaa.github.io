@@ -11,16 +11,7 @@ author: John Doe
 language: en
 timezone: ''
 
-base_info:
-  primary_color: "#e18cbf"
-  title: Chiehhhaa's Blog
-  author: FangChieh
-  # avatar: /images/avatar.svg
-  # logo: /images/logo.svg
-  # favicon: /images/logo.svg
 
-menu:
-  about: /about
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
