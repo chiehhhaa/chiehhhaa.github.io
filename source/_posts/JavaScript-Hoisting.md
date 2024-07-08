@@ -1,7 +1,6 @@
 ---
-title: JavaScript : Hoisting
-date: 2024-07-08
-sticky: 
+title: 'JavaScript : Hoisting'
+date: 2024-07-08 19:02:46
 code_block_shrink:  false
 categories: [JavaScript]
 tags: [Hoisting]

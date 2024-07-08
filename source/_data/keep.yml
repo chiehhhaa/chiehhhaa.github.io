@@ -15,8 +15,8 @@ menu:
 
 home:
   announcement: 
-  category: true           # Option values: true | false
-  tag: true                # Option values: true | false
+  category: true           
+  tag: true               
   post_datetime: created   # Option values: updated | created
   post_datetime_format: YYYY-MM-DD # Option values: ago | YYYY-MM-DD HH:mm:ss
 
@@ -38,8 +38,8 @@ social_contact:
 
 post:
   author_badge:
-    enable: false         # Option values: true | false
-    level_badge: false   # Option values: true | false
+    enable: false       
+    level_badge: false   
     custom_badge: ["One", "Two", "Three"]
 
   word_count:
