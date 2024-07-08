@@ -1,16 +1,16 @@
 ---
-title: 'JavaScript : Hoisting'
+title: '💡JavaScript : Hoisting'
 date: 2024-07-08 19:02:46
 code_block_shrink:  false
 categories: [JavaScript]
 tags: [Hoisting]
 ---
 
-# 💡JavaScript : Hoisting
-
 如果有任何錯誤的地方，還請各位指教～🥺🙏🏼
 
 第一篇獻給我認為很重要也需要花時間好好瞭解的觀念：Hoisting 🤯
+
+ <!-- more -->
 
 👀 先看一段程式碼：
 ```javascript
