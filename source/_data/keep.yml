@@ -19,3 +19,11 @@ first_screen:
   background_img_dark: /images/bg.svg
   description: Never settle for comfort when you can push yourself.
   hitokoto: false      # Automatically generate description
+
+social_contact:
+  enable: true
+  links:
+    github: https://github.com/chiehhhaa 
+    medium: https://medium.com/@chiehhhaa
+    email: tomato870208@gmail.com
+
