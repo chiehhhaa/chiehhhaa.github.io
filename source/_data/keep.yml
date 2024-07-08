@@ -6,6 +6,13 @@ base_info:
   logo: /images/logo.png
   favicon: /images/logo.png
 
+home:
+  announcement: 
+  category: true           # Option values: true | false
+  tag: true                # Option values: true | false
+  post_datetime: created   # Option values: updated | created
+  post_datetime_format: YYYY-MM-DD HH:mm # Option values: ago | YYYY-MM-DD HH:mm:ss
+
 menu:
   home: / || fa-solid fa-home                
   archives: /archives || fa-solid fa-box-archive 
