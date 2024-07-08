@@ -3,7 +3,7 @@ title: '💡JavaScript : Function Expressions v.s. Function Statements'
 date: 2024-07-08 22:17:15
 code_block_shrink:  false
 categories: [JavaScript]
-tags: [Function, Expressions, Statements]
+tags: [Function, Function Expressions, Function Statements]
 ---
 
 函式表達式跟函式陳述句！？這是蝦米🍤！？
@@ -21,6 +21,7 @@ Expressions 就是會直接回傳一個值的一串程式，因為有回傳值�
 舉個例子，如果直接在瀏覽器的console中輸入：
 
 ```javascript
+1 + 2 
 // 回傳 3
 
 a = 5
@@ -64,7 +65,7 @@ sayHey()
 ```
 
 一般的函式寫法會像上面這串程式，這樣就是一種函式宣告。
-前面提到 Statements 是一串沒有回傳值的程式，不過 Function Statements 有個特色是：在宣告時， `sayHey` 這個函式就會因為 Hoisting 先被儲存在記憶體中 ( 關於 Hoisting 可以參考：[💡JavaScript：Hoisting](https://chiehhhaa.github.io/2024/07/08/JavaScript-Hoisting/) )
+前面提到 Statements 是一串沒有回傳值的程式，不過 Function Statements 有個特色是：在宣告時， `sayHey` 這個函式就會因為 Hoisting 先被儲存在記憶體中 (關於 Hoisting 可以參考：[💡JavaScript：Hoisting](https://chiehhhaa.github.io/2024/07/08/JavaScript-Hoisting/))
 
 正因為函式宣告也有 Hoisting，所以當使用陳述句的寫法時，就可以隨時呼叫這個函式都不會出錯喲！
 
@@ -97,7 +98,7 @@ const sayHello = function(){
 我們試著在宣告前呼叫這段 function，你會發現結果大噴錯💣！
 錯誤訊息：
 `ReferenceError: Cannot access ‘sayHello’ before initialization.`
-沒錯！這個跟在使用 let/const 宣告變數時，會遇到的問題一樣，只能在確定宣告後，才能呼叫使用這串函式📢 ( 一樣可以參考[💡JavaScript：Hoisting](https://chiehhhaa.github.io/2024/07/08/JavaScript-Hoisting/) ）
+沒錯！這個跟在使用 let/const 宣告變數時，會遇到的問題一樣，只能在確定宣告後，才能呼叫使用這串函式📢 (一樣可以參考[💡JavaScript：Hoisting](https://chiehhhaa.github.io/2024/07/08/JavaScript-Hoisting/))
 
 如果這樣的話，那我們用 var 的話呢！
 
