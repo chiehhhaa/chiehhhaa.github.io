@@ -1,10 +1,13 @@
 base_info:
   primary_color: "#e18cbf"
-  title: Chiehhhaa's Blog
+  title: This is @chiehhhaa 👽 
   author: chiehhhaa
   # avatar: /images/avatar.svg
   # logo: /images/logo.svg
   # favicon: /images/logo.svg
 
 menu:
-  about: /about
+  home: / || fa-solid fa-home                
+  archives: /archives || fa-solid fa-box-archive 
+  tag: /tag  || fa-solid fa-tags 
+  about: /about || fa-solid fa-address-card
