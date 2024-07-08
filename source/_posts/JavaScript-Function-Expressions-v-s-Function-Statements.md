@@ -3,7 +3,7 @@ title: '💡JavaScript : Function Expressions v.s. Function Statements'
 date: 2024-07-08 22:17:15
 code_block_shrink:  false
 categories: [JavaScript]
-tags: [Function, Function Expressions, Function Statements]
+tags: [Function, Expressions, Statements]
 ---
 
 函式表達式跟函式陳述句！？這是蝦米🍤！？

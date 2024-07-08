@@ -69,6 +69,11 @@ toc:
   init_open: true    # Option values: true | false
   layout: right      # Option values: left | right
 
+# search setting
+local_search:
+  enable: true      
+  preload: true     # Preload the search data when the page loads
+
 #loading setting
 lazyload:
   enable: true  # Option values: true | false

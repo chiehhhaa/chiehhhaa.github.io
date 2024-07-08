@@ -7,11 +7,9 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: chiehhhaa
 language: en
 timezone: ''
-
-
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -103,3 +101,12 @@ theme: keep
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 
+# search
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
+local_search:
+  enable: true
