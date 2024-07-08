@@ -3,8 +3,8 @@ base_info:
   title: This is @chiehhhaa👽 
   author: chiehhhaa
   # avatar: /images/avatar.svg
-  # logo: /images/logo.svg
-  # favicon: /images/logo.svg
+  logo: /images/logo.png
+  favicon: /images/logo.png
 
 menu:
   home: / || fa-solid fa-home                
