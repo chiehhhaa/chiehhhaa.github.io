@@ -6,6 +6,13 @@ base_info:
   logo: /images/logo.png
   favicon: /images/logo.png
 
+menu:
+  home: / || fa-solid fa-home                
+  archives: /archives || fa-solid fa-box-archive 
+  categories: /categories || fa-solid fa-folder-open
+  tag: /tag  || fa-solid fa-tags 
+  about: /about || fa-solid fa-address-card
+
 home:
   announcement: 
   category: true           # Option values: true | false
@@ -13,11 +20,6 @@ home:
   post_datetime: created   # Option values: updated | created
   post_datetime_format: YYYY-MM-DD # Option values: ago | YYYY-MM-DD HH:mm:ss
 
-menu:
-  home: / || fa-solid fa-home                
-  archives: /archives || fa-solid fa-box-archive 
-  tag: /tag  || fa-solid fa-tags 
-  about: /about || fa-solid fa-address-card
 
 # banner
 first_screen:
@@ -34,3 +36,33 @@ social_contact:
     medium: https://medium.com/@chiehhhaa
     email: tomato870208@gmail.com
 
+post:
+  author_badge:
+    enable: false         # Option values: true | false
+    level_badge: false   # Option values: true | false
+    custom_badge: ["One", "Two", "Three"]
+
+  word_count:
+    wordcount: false     # Word count, one article. Option values: true | false
+    min2read: false      # Time to read, one article. Option values: true | false
+
+  datetime_format: "YYYY-MM-DD HH:mm"  # Datetime format. e.g. "YYYY-MM-DD HH:mm:ss"
+
+  copyright_info: false  # Option values: true | false
+
+  share: false           # Option values: true | false
+
+  reward:
+    enable: false        # Option values: true | false
+    img_link:            # Image link for the payment QR code
+    text:                # Custom reward text, Can be null
+
+toc:
+  enable: true      # Option values: true | false
+  number: false      # Option values: true | false
+  expand_all: false  # Option values: true | false
+  init_open: true    # Option values: true | false
+  layout: right      # Option values: left | right
+
+lazyload:
+  enable: true  # Option values: true | false
