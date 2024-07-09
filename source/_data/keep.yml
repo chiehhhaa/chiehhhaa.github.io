@@ -95,8 +95,6 @@ footer:
         link:            # record link of your website, Can be null
 
 # post comments
-require('dotenv').config();
-
 comment:
   enable: true
   use: gitalk
