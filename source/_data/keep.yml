@@ -101,5 +101,5 @@ comment:
   gitalk:
     github_id: chiehhhaa
     repository: chiehhhaa.github.io 
-    client_id: process.env.DB_CLIENT_ID
+    client_id: Ov23liYkGIeM9UO6p1Vj
     client_secret: process.env.DB_CLIENT_SECRE
