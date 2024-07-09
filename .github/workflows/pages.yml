@@ -32,11 +32,14 @@ jobs:
           npm install
           npm install dotenv --save-dev 
       - name: Build
-        run: npm run build
+        run: |
+          npm run build
+      - name: List build directory  # 這一步檢查 ./public 目錄內容
+        run: ls -la ./public
       - name: Upload Pages artifact
         uses: actions/upload-artifact@v3
         with:
-          name: github-pages
+          name: github-pages  # 確保 artifacts 名稱是 "github-pages"
           path: ./public
   deploy:
     needs: build
