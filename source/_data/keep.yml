@@ -95,11 +95,11 @@ footer:
         link:            # record link of your website, Can be null
 
 # post comments
-comment:
-  enable: true
-  use: gitalk
-  gitalk:
-    github_id: chiehhhaa
-    repository: chiehhhaa.github.io 
-    client_id: Ov23liYkGIeM9UO6p1Vj
-    client_secret: process.env.DB_CLIENT_SECRET
+# comment:
+#   enable: true
+#   use: gitalk
+#   gitalk:
+#     github_id: chiehhhaa
+#     repository: chiehhhaa.github.io 
+#     client_id: Ov23liYkGIeM9UO6p1Vj
+#     client_secret: process.env.DB_CLIENT_SECRET
