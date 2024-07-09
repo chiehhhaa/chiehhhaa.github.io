@@ -95,6 +95,13 @@ footer:
         link:            # record link of your website, Can be null
 
 # post comments
+require('dotenv').config();
+
 comment:
   enable: true
-  use: giscus
+  use: gitalk
+  gitalk:
+  github_id: chiehhhaa
+  repository: chiehhhaa.github.io
+  client_id: process.env.DB_CLIENT_ID
+  client_secret: process.env.DB_CLIENT_SECRET
