@@ -100,6 +100,6 @@ comment:
   use: gitalk
   gitalk:
     github_id: chiehhhaa
-    repository: chiehhhaa_comments
+    repository: chiehhhaa.github.io 
     client_id: process.env.DB_CLIENT_ID
-    client_secret: process.env.DB_CLIENT_SECRET
+    client_secret: process.env.DB_CLIENT_SECRE
