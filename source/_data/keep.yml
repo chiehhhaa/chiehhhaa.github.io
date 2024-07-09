@@ -97,6 +97,4 @@ footer:
 # post comments
 comment:
   enable: true
-  use: disqus
-  disqus: 
-    shortname: chiehhhaa
+  use: giscus
