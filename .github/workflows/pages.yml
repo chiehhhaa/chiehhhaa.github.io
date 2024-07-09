@@ -30,12 +30,13 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install
-          npm install dotenv --save-dev  # Add this line to install dotenv
+          npm install dotenv --save-dev 
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
         uses: actions/upload-artifact@v3
         with:
+          name: github-pages
           path: ./public
   deploy:
     needs: build
