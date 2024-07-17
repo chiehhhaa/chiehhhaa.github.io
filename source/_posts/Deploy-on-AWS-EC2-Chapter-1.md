@@ -1,5 +1,5 @@
 ---
-title: 📝 Deploy on AWS EC2 (AWS EC2部署之旅) 上篇
+title: 📝Deploy on AWS EC2 (AWS EC2部署之旅) 上篇
 date: 2024-07-17 12:36:38
 code_block_shrink:  false
 categories: [Deploy]
@@ -9,6 +9,7 @@ tags: [AWS, EC2, Ubuntu, Nginx]
 嗨嗨～ 記錄一下我的AWS部署之旅 💻
 
 一開始接觸可能有些繁瑣，熟悉之後是另一個世界～🤩✨
+<!-- more -->
 這次部署的專案是用 Python Django 開發，並且有先 push 到 GitHub 上。
 
 對了！開始部署之前別忘記先註冊一個 AWS 帳號喲(這邊就不特別說明了)
