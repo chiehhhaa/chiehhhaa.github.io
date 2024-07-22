@@ -5,9 +5,10 @@ code_block_shrink:  false
 categories: [Python, Django]
 tags: [Django, Test]
 ---
-嗨，這邊要來記錄我嘗試寫測試的過程🙌🏻 <br/>
-使用之前協同實作的 Django 專案 － Diswork。
+嗨，這邊要來記錄我嘗試寫測試的過程🙌🏻 
 
+使用之前協同實作的 Django 專案 － Diswork。
+<br/>
 讓我們繼續看下去👀 ...
 <!-- more -->
 
@@ -86,29 +87,35 @@ def test_with_count(self):
         self.assertEqual(article3.comment_count, 1) # 預期文章3會有1個喜歡 (有一個留言已經被軟刪除)
 ```
 
-### Step 3
+#### Step 3
 
 都定義好測試的方法後，就可以開始執行測試囉！
 
 可以在執行 python test 命令時，指定一個或多個測試標籤：
 
 `1. python manage.py test articles.tests`
-> 執行所有在 articles 模組中的所有測試
+
+執行所有在 articles 模組中的所有測試
 
 `2. python manage.py test articles`
-> 執行 articles 中找到的所有測試
+
+執行 articles 中找到的所有測試
 
 `3. python manage.py test articles.tests.ArticleManagerTestCase`
-> 單執行一個類別測試
+
+單執行一個類別測試
 
 `4. python manage.py test articles.tests.ArticleManagerTestCase.test_with_count`
-> 單執行一個方法測試
+
+單執行一個方法測試
 
 
-好啦以上就是紀錄我在 Django 中的測試內容✨<br/>
+好啦以上就是紀錄我在 Django 中的測試內容✨
+
 每一個專案需要的測試邏輯都不同，就要依照你想要的邏輯去寫囉！
+<br/>
+老話一句，感謝大大們看到這邊🥹
 
-老話一句，感謝大大們看到這邊🥹 <br/>
 如果有內容錯誤需要更正的也麻煩大神們提點🫡
 
 
