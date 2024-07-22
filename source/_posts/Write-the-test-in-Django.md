@@ -90,6 +90,7 @@ def test_with_count(self):
 都定義好測試的方法後，就可以開始執行測試囉！
 
 可以在執行 python test 命令時，指定一個或多個測試標籤：
+
 ```python
 $ python manage.py test articles.tests
 # 執行所有在 articles 模組中的所有測試
@@ -103,7 +104,7 @@ $ python manage.py test articles.tests.ArticleManagerTestCase
 $ python manage.py test articles.tests.ArticleManagerTestCase.test_with_count
 # 單執行一個方法測試
 ```
----
+<br/>
 
 好啦以上就是紀錄我在 Django 中的測試內容✨
 
