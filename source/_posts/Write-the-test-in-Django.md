@@ -5,10 +5,8 @@ code_block_shrink:  false
 categories: [Python, Django]
 tags: [Django, Test]
 ---
-嗨，這邊要來記錄我嘗試寫測試的過程🙌🏻 
-
+嗨，這邊要來記錄我嘗試寫測試的過程🙌🏻  
 使用之前協同實作的 Django 專案 － Diswork。
-<br/>
 讓我們繼續看下去👀 ...
 <!-- more -->
 
