@@ -9,6 +9,7 @@ tags: [Python, requests, API]
 嗨嗨，本篇主要是用來記錄面試旅途中遇到的測驗題目...✍🏻
 <!-- more -->
 
+## 測驗題目
 **Open API 規格**
 - URL: https://pokeapi.co/docs/v2#info
     - https://pokeapi.co/api/v2/pokemon/{id or name}/
