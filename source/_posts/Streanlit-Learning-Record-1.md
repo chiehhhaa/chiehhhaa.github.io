@@ -1,8 +1,8 @@
 ---
-title: 👩🏻‍💻Journey of the `Streanlit` Learning Record-1
+title: 👩🏻‍💻Journey of the Streanlit Learning Record-1
 date: 2024-08-22 11:03:06
 code_block_shrink:  false
-categories: [Python]
+categories: [Python, Streamlit]
 tags: [Streanlit]
 ---
 # About Streamlit
