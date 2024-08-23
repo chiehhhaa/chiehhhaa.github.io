@@ -56,7 +56,7 @@ st.dataframe(df.style.highlight_max(axis=0))
 ```
 
 It will be like:
-![截圖-2024-08-23-09](https://chiehhhaa.github.io/picx-images-hosting/截圖-2024-08-23-09.36.36.8hgepp0qt9.webp)
+![截圖-2024-08-23-09](https://chiehhhaa.github.io/picx-images-hosting/截圖-2024-08-23-09.45.03.8l00nf43nc.webp)
 
 
 `st.dataframe` can automatically create the data table on the web page!! You can use it with pandas or Numpy...
